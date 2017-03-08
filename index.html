@@ -87,7 +87,7 @@
             {
                 type : 'category',
                 boundaryGap : false,
-                data : ['周一','周二','周三','周四','周五','周六','周日']
+                data : ['Mon','Tue','Weds','Thurs','Fri','Sat','Sun']
             }
         ],
         yAxis : [
@@ -97,21 +97,21 @@
         ],
         series : [
             {
-                name:'成交',
+                name:'1',
                 type:'line',
                 smooth:true,
                 itemStyle: {normal: {areaStyle: {type: 'default'}}},
                 data:[10, 12, 21, 54, 260, 830, 710]
             },
             {
-                name:'预购',
+                name:'2',
                 type:'line',
                 smooth:true,
                 itemStyle: {normal: {areaStyle: {type: 'default'}}},
                 data:[30, 182, 434, 791, 390, 30, 10]
             },
             {
-                name:'意向',
+                name:'3',
                 type:'line',
                 smooth:true,
                 itemStyle: {normal: {areaStyle: {type: 'default'}}},
@@ -126,7 +126,7 @@
          legend: {
              x:'center',
              y:'bottom',
-             data:['邮件营销','联盟广告','视频广告','直接访问','搜索引擎']
+             data:['1','2','3','直4','5']
          },
          toolbox: {
              show : true,
@@ -143,7 +143,7 @@
              {
                  type : 'category',
                  boundaryGap : false,
-                 data : ['周一','周二','周三','周四','周五','周六','周日']
+                 data : ['1','2','3','4','5','6','7']
              }
          ],
          yAxis : [
@@ -155,35 +155,35 @@
              {
                  name:'1',
                  type:'line',
-                 stack: '总量',
+                 stack: '1',
                  itemStyle: {normal: {areaStyle: {type: 'default'}}},
                  data:[120, 132, 101, 134, 90, 230, 210]
              },
              {
                  name:'2',
                  type:'line',
-                 stack: '总量',
+                 stack: '2',
                  itemStyle: {normal: {areaStyle: {type: 'default'}}},
                  data:[220, 182, 191, 234, 290, 330, 310]
              },
              {
                  name:'3',
                  type:'line',
-                 stack: '总量',
+                 stack: '3',
                  itemStyle: {normal: {areaStyle: {type: 'default'}}},
                  data:[150, 232, 201, 154, 190, 330, 410]
              },
              {
                  name:'4',
                  type:'line',
-                 stack: '总量',
+                 stack: '4',
                  itemStyle: {normal: {areaStyle: {type: 'default'}}},
                  data:[320, 332, 301, 334, 390, 330, 320]
              },
              {
                  name:'5',
                  type:'line',
-                 stack: '总量',
+                 stack: '5',
                  itemStyle: {normal: {areaStyle: {type: 'default'}}},
                  data:[820, 932, 901, 934, 1290, 1330, 1320]
              }
